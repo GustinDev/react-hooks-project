@@ -7,7 +7,7 @@ export const CounterApp = () => {
   //Llamamos a las funciones y estados normalmente.
   return (
     <div>
-      <h1>Counter</h1>
+      <h1>Counter:</h1>
       <h2>{counter}</h2>
       <button onClick={increment}>+1</button>
       <button onClick={decremet}>-1</button>
