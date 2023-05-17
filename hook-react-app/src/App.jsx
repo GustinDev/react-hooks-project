@@ -1,15 +1,11 @@
-import reactLogo from './assets/react.svg';
 import './App.css';
 import { HooksApp } from './HooksApp';
+import SimpleForm from './Components/SimpleForm';
 
 function App() {
   return (
     <>
-      <div>
-        <a href='https://react.dev' target='_blank' rel='noreferrer'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
-      </div>
+      <SimpleForm />
       <HooksApp />
     </>
   );
