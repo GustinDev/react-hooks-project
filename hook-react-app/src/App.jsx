@@ -1,12 +1,12 @@
 import './App.css';
-import { HooksApp } from './HooksApp';
-import SimpleForm from './Components/SimpleForm';
+import TextInput from './Components/TexrInput';
+// import { HooksApp } from './HooksApp';
+// import SimpleForm from './Components/SimpleForm';
 
 function App() {
   return (
     <>
-      <SimpleForm />
-      <HooksApp />
+      <TextInput />
     </>
   );
 }

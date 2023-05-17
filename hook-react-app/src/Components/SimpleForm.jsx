@@ -5,11 +5,12 @@ const SimpleForm = () => {
   //Importamos el estado y la fun.
   //Le pasamos un objeto inicial (nuestro formulario).
   //También podemos sacar los valores de nuestro form directamente por el ...formState
-  const { formState, onInputChange, username, email, password } = useForm({
-    username: '',
-    email: '',
-    password: '',
-  });
+  const { formState, onInputChange, onInputReset, username, email, password } =
+    useForm({
+      username: '',
+      email: '',
+      password: '',
+    });
 
   return (
     <div>
@@ -40,6 +41,8 @@ const SimpleForm = () => {
         onChange={onInputChange}
         value={password}
       />
+
+      <button onClick={onInputReset}>Reset</button>
     </div>
   );
 };
